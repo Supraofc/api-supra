@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="RRuLL" />
+  <link href="https://i.pinimg.com/736x/4b/7e/27/4b7e27dde43758a0544fe9abf6b180b9.jpg" rel="icon" />
+  <title>SUPRA API</title>
+  <link href="https://indrijunanda.github.io/RuangAdmin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="https://indrijunanda.github.io/RuangAdmin/css/ruang-admin.min.css" rel="stylesheet" />
+  <meta property="og:title" content="FREE REST API TOOLS & DOWNLOADER ONLINE " />
+  <meta property="og:description"
+    content="KYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+  <meta property="og:image" content="https://i.pinimg.com/736x/4b/7e/27/4b7e27dde43758a0544fe9abf6b180b9.jpg" />
+  <meta property="og:url" content="index.html" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/androidstudio.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+</head>
+
+<body id="page-top">
+  <div id="wrapper">
+    <ul class="navbar-nav sidebar bg-gray-900 accordion bg-light" id="accordionSidebar"
+      style="color: rgb(8, 247, 255);">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center bg-gray-900"
+        style="color: rgb(7, 255, 201);">
+               <div class="sidebar-brand-icon">    
+        	<img src="img/logo/logo2.png">
+        </div>
+        <span style="color: rgb(255, 255, 255);">SUPRA REST API</span>
+      </a>
+      <hr class="sidebar-divider my-0" />
+      <li class="nav-item active">
+        <a class="nav-link">
+          <i class="fas fa-fw fa-code"></i>
+          <span>Documentos</span></a>
+      </li>
+      <hr class="sidebar-divider" />
+      <div class="sidebar-heading">Recursos</div>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
+          aria-expanded="true" aria-controls="collapseBootstrap">
+          <i class="fas fa-fw fa-arrow-down"></i>
+          <span>Recursos de baixar</span>
+        </a>
+        <div id="collapseBootstrap" class="collapse" aria-labelledby="headingBootstrap" data-parent="#accordionSidebar">
+          <div class="bg-black py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Recursos do Downloader</h6>           
+             <a class="collapse-item" href="/api/playaudio?quero=o%20moca&apikey=SUA_APIKEY">Play</a>
+                    <a class="collapse-item" href="api/playvid?quero=o%20moca&apikey=SUA_APIKEY">Play Video</a>                
+               <a class="collapse-item" href="api/audiomeme?quero=yamete&apikey=SUA_APIKEY">Audio Memes</a>
+          </div>
+        </div>
+      </li>
+ 
+      <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSearch" aria-expanded="true"
+            aria-controls="collapseSearch">
+            <i class="fas fa-fw fa-search"></i>
+            <span>API de pesquisa</span>
+          </a>
+          <div id="collapseSearch" class="collapse" aria-labelledby="headingSearch" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Recursos da API de pesquisa</h6>
+            <a class="collapse-item" href="/api/ddd?quero=73&apikey=SUA_APIKEY">ddd</a>
+              <a class="collapse-item" href="/api/cep1?quero=01034-030&apikey=SUA_APIKEY">cep</a>
+                <a class="collapse-item" href="/api/ip?quero=200.255.122.170&apikey=SUA_APIKEY">IP</a>
+             </div>
+          </div>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGames" aria-expanded="true" aria-controls="collapseForm">
+            <i class="app-menu__icon fa fa-laptop"></i>
+            <span>Videos & Edits</span>
+        </a>
+        <div id="collapseGames" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+            <div class="py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Edits</h6>
+             <a class="collapse-item" href="api/saycat?apikey=SUA_APIKEY">Edit Saycat</a>                  
+         </div>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePhotooxy"
+          aria-expanded="true" aria-controls="collapsePhotooxy">
+          <i class="fa fa-anchor" aria-hidden="true"></i>
+          <span>Photooxy</span>
+        </a>
+        <div id="collapsePhotooxy" class="collapse" aria-labelledby="headingPhotooxy" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Photooxy Features</h6>
+         <a class="collapse-item" href="/api/photooxy/shadow?apikey=APIKEY&text=Supra">Shadow Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/romantic?apikey=APIKEY&text=Supra">Romantic Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/smoke?apikey=APIKEY&text=Supra">Smoke text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/burn-paper?apikey=APIKEY&text=Supra">Burn-paper Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/naruto?apikey=APIKEY&text=Supra">Naruto Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/romantic?apikey=APIKEY&text=Supra">Romantic Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/love-message?apikey=APIKEY&text=Supra">Love-Message Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/message-under-grass?apikey=APIKEY&text=Supra">Message Under Grass</a>
+            <a class="collapse-item" href="/api/photooxy/glitch?apikey=APIKEY&text=Lhanna&text2=Supra">Glitch Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/double-heart?apikey=APIKEY&text=Supra">Double Heart</a>
+            <a class="collapse-item" href="/api/photooxy/coffe-cup?apikey=APIKEY&text=Supra">Coffe-cup Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/love-text?apikey=APIKEY&text=Supra">Love-Text Effect</a>
+            <a class="collapse-item" href="/api/photooxy/butterfly?apikey=APIKEY&text=Supra">Butterfly Text Effect</a>
+          </div>
+        </div>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOthers" aria-expanded="true"
+            aria-controls="collapseOthers">
+            <i class="fas fa-fw fa-leaf"></i>
+            <span>Aleatorios</span>
+          </a>
+          <div id="collapseOthers" class="collapse" aria-labelledby="headingOthers" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">aleatórios</h6>
+                  <a class="collapse-item" href="api/conselho?apikey=SUA_APIKEY">Frases & Conselhos</a>
+            <a class="collapse-item" href="api/romanticafrase?apikey=SUA_APIKEY">Frases Romântica</a>
+            <a class="collapse-item" href="api/stickera?apikey=SUA_APIKEY">Fugurinhas Aleatórias</a>        
+            </div>
+          </div>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseRandom" aria-expanded="true"
+          aria-controls="collapseRandom">
+          <i class="fa fa-camera-retro" aria-hidden="true"></i>
+          <span>Random Image</span>
+        </a>
+        <div id="collapseRandom" class="collapse" aria-labelledby="headingRandom" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">Random Img Features</h6>
+             <a class="collapse-item" href="/randomimg/milf">Milf</a>
+             <a class="collapse-item" href="/randomimg/waifu">Waifu</a>
+             <a class="collapse-item" href="/randomimg/husbu">Husbu</a>
+             <a class="collapse-item" href="/randomimg/loli">Loli</a>
+             <a class="collapse-item" href="/randomimg/cosplay">Cosplay</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseGames" aria-expanded="true" aria-controls="collapseForm">
+            <i class="app-menu__icon fa fa-laptop"></i>
+            <span>Jogos</span>
+        </a>
+        <div id="collapseGames" class="collapse" aria-labelledby="headingForm" data-parent="#accordionSidebar">
+            <div class="py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Jogos</h6>
+                   <a class="collapse-item" href="/api/dadu?apikey=SUA_APIKEY">Jogar dado</a>   
+         </div>
+        </div>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseother" aria-expanded="true"
+          aria-controls="collapseother">
+          <i class="fab fa-fw fa-wpforms"></i>
+          <span>outros</span>
+        </a>
+        <div id="collapseother" class="collapse" aria-labelledby="headingother" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">outros</h6>
+       <a class="collapse-item" href="api/attp1?text=supra&apikey=SUA_APIKEY">Attp</a>  
+                 <a class="collapse-item" href="api/attp2?text=supra&apikey=SUA_APIKEY">Attp 2</a>                            
+            <a class="collapse-item" href="api/tradutor?text=hi&apikey=SUA_APIKEY">Tradutor</a>
+          </div>
+        </div>
+      </li>
+      <hr class="sidebar-divider" />
+      <div class="version" id="version-ruangadmin"></div>
+    </ul>
+
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+        <nav class="navbar navbar-expand navbar-light bg-navbar topbar mb-4 static-top bg-gray-900">
+          <button id="sidebarToggleTop" class="btn btn-link rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul class="navbar-nav ml-auto">
+            <div class="topbar-divider d-none d-sm-block"></div>
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <img class="img-profile rounded-circle"
+                  src="https://i.pinimg.com/736x/4b/7e/27/4b7e27dde43758a0544fe9abf6b180b9.jpg"
+                  style="max-width: 100px" />
+                <span class="ml-2 d-none d-lg-inline text-white small"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container-fluid" id="container-wrapper">
+          <div id="demo" class="alert alert-dark alert-dismissible" role="alert">
+            <div id="browser_info"></div>
+            <script>
+              let arrBulan = [
+                "Janeiro",
+                "Fevereiro",
+                "Março",
+                "Abril",
+                "Maio",
+                "Junho",
+                "Juli",
+                "Agustus",
+                "September",
+                "Oktober",
+                "November",
+                "Desember",
+              ];
+              let txt = "";
+              txt +=
+                "<p><b>Código do navegador</b>: " +
+                navigator.appCodeName +
+                "</p>";
+              txt += "<p><b>Nome do navegador</b>: " + navigator.appName + "</p>";
+              txt +=
+                "<p><b>Cookies Ativados</b>: " +
+                navigator.cookieEnabled +
+                "</p>";
+              txt += "<p><b>Navegador Online</b>: " + navigator.onLine + "</p>";
+              txt += "<p><b>Plataforma</b>: " + navigator.platform + "</p>";
+              txt += "<p><b>Agente de usuário</b>: " + navigator.userAgent + "</p>";
+              let text_el = document.querySelector("div#browser_info");
+              setInterval(() => {
+                var d = new Date();
+                const jam = d.getHours().toString().padStart(2, 0);
+                const menit = d.getMinutes().toString().padStart(2, 0);
+                const detik = d.getSeconds().toString().padStart(2, 0);
+                const tgl = d.getDate();
+                const bln = d.getMonth();
+                const thn = d.getFullYear();
+                const bulan = arrBulan[bln];
+                text_el.innerHTML =
+                  txt +
+                  "<b>Data</b>: " +
+                  jam +
+                  ":" +
+                  menit +
+                  ":" +
+                  detik +
+                  "~" +
+                  tgl +
+                  "-" +
+                  bulan +
+                  "-" +
+                  thn +
+                  "<br>Bem vindo de volta!";
+              }, 250);
+            </script>
+          </div>
+          <div class="row">
+<div class="col-xl-12 col-lg-12 col-md-12">
+<div class="card">
+<div class="card-header">
+<h4 class="card-title">Feito com ❤️ por<a href="https://supra-api.herokuapp.com/sobre" target="_blank">Supra</a></h4>
+</div>
+<div class="card-body text-sm-left font-weight-bold">Não seja intimidado pelo caminho, eu simplesmente não posso fazer fogo por favor use btw o código-fonte não é intimidado, eu simplesmente não posso fazer fogo por favor use btw o código fonte está aqui <a href="https://github.com/Supraofc/api-supra" target="_blank">Sini</a> yak</div>
+</div>
+</div>
+</div>
+<span> <br> </span>
+          <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  <b><a href="https://github.com/Supraofc"
+                      target="_blank">Supra</a></b>
+                </span>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+<audio autoplay="true" src="https://a.top4top.io/m_1757ageic0.m4a"></audio>
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery/jquery.min.js"></script>
+    <script src="https://indrijunanda.github.io/RuangAdmin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://indrijunanda.github.io/RuangAdmin/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://indrijunanda.github.io/RuangAdmin/js/ruang-admin.min.js"></script>
+  </div>
+</body>
+
+</html>

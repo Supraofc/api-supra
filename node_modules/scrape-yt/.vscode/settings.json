@@ -1,0 +1,7 @@
+{
+	"editor.formatOnSave": false,
+	"discord.enabled": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	}
+}
